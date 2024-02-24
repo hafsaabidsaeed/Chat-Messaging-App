@@ -1,4 +1,4 @@
-import 'package:chat_messaging_app/constants/colors.dart';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
         leading: const Icon(CupertinoIcons.home),
         title: const Text('Conversa'),
         actions: [
-          IconButton(onPressed: () {}, icon: const Icon(Icons.search)),
+          IconButton(onPressed: () {}, icon: const Icon(Icons.search_outlined)),
           IconButton(onPressed: () {}, icon: const Icon(Icons.more_vert)),
         ],
       ),
